@@ -31,6 +31,7 @@ void Game::Draw() const
 	ClearBackground();
 
 	m_StageManager.Draw();
+	//TEST
 }
 
 void Game::ProcessKeyDownEvent(const SDL_KeyboardEvent& e)
