@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <img width="256" height="256" alt="image" src="/README_Images/image.jpg" />
-  <h4 align="center">Credit to IGN: https://www.ign.com/games/risk-of-rain-returns/trailers</h4>
+  <h6 align="center">Credit to IGN: https://www.ign.com/games/risk-of-rain-returns/trailers</h6>
   <h2 align="center">Risk of Rain: Returns</h2>
 
   <p align="center">
