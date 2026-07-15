@@ -3,7 +3,8 @@
 <!-- GENERAL GAME INFO -->
 <br />
 <div align="center">
-  <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/c0027469-2337-43ad-be14-8fb07d9d46ac" />
+  <img width="256" height="256" alt="image" src="/README_Images/image.jpg" />
+  <h6 align="center">Credit to IGN: https://www.ign.com/games/risk-of-rain-returns/trailers</h6>
   <h2 align="center">Risk of Rain: Returns</h2>
 
   <p align="center">
@@ -46,7 +47,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/af49c4aa-7d98-48e6-8096-acee781a342f" />
+<img width="1280" height="675" alt="image" src="/README_Images/providence.jpg" />
+<h6 align="center">Credit to GameSkinny: https://www.gameskinny.com/tips/risk-of-rain-returns-how-to-beat-providence/</h6>
 
 
 
