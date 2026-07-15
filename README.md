@@ -3,7 +3,7 @@
 <!-- GENERAL GAME INFO -->
 <br />
 <div align="center">
-  <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/c0027469-2337-43ad-be14-8fb07d9d46ac" />
+  <img width="256" height="256" alt="image" src="[https://github.com/user-attachments/assets/c0027469-2337-43ad-be14-8fb07d9d46ac](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets-prd.ignimgs.com%2F2022%2F12%2F20%2Friskofrainreturns-1671568832997.jpg&f=1&nofb=1&ipt=c71a91968979e9984e1b6afb294b425c222864ddb0b4f233ef2b7ba1cdbee92b)" />
   <h2 align="center">Risk of Rain: Returns</h2>
 
   <p align="center">
