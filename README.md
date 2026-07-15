@@ -47,7 +47,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/af49c4aa-7d98-48e6-8096-acee781a342f" />
+<img width="1280" height="675" alt="image" src="/README_Images/providence.jpg" />
+<h6 align="center">Credit to GameSkinny: https://www.gameskinny.com/tips/risk-of-rain-returns-how-to-beat-providence/</h6>
 
 
 
