@@ -3,7 +3,7 @@
 <!-- GENERAL GAME INFO -->
 <br />
 <div align="center">
-  <img width="256" height="256" alt="image" src="https://www.ign.com/games/risk-of-rain-returns" />
+  <img width="256" height="256" alt="image" src="/README/image.jpg" />
   <h2 align="center">Risk of Rain: Returns</h2>
 
   <p align="center">
