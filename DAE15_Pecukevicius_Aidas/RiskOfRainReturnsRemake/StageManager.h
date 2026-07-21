@@ -9,8 +9,8 @@
 class StageManager
 {
 public:
-	explicit StageManager(const Rectf& viewport);
-	~StageManager();
+	explicit StageManager(const Rectf& viewport); // give constructors to each manager class
+	~StageManager() = default;
 
 	void Initialize();
 	void Draw() const;
@@ -19,9 +19,10 @@ public:
 private:
 	Rectf m_Viewport{};
 	const std::string m_ResourceDirectory{ "../../RiskOfRainReturnsRemake/Resources/" };
-	SpriteManager m_SpriteManager{};
-	FrameManager m_FrameManager{};
-	LevelManager m_LevelManager{};
-	Player m_Player{};
-	Camera m_Camera{ m_LevelManager.GetLevelSize(), Vector2f{m_Viewport.width, m_Viewport.height}};
+
+	SpriteManager m_SpriteManager;
+	FrameManager m_FrameManager;
+	LevelManager m_LevelManager;
+	Player m_Player;
+	Camera m_Camera;
 };

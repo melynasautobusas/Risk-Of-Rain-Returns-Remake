@@ -7,6 +7,8 @@ ImageEditor::ImageEditor()
 	std::cout << "Controls:\n";
 	std::cout << "Z - Zoom in\n";
 	std::cout << "X - Zoom out\n";
+
+	m_pTexture = new Texture{ "CommandoSpriteSheetA0.png" };
 }
 
 ImageEditor::~ImageEditor()
@@ -17,27 +19,29 @@ ImageEditor::~ImageEditor()
 
 void ImageEditor::Draw() const
 {
+	glPushMatrix();
+	glScalef(m_Scale, m_Scale, 1.f);
 	if (m_pTexture != nullptr)
 	{
-		m_pTexture->Draw();
+		m_pTexture->Draw(m_Offset);
 	}
+	glPopMatrix();
 }
 
-void ImageEditor::Zoom()
+void ImageEditor::Zoom(float scale)
 {
-	//Matrix2x3 scale{};
-	//scale.SetAsScale();
-
-	std::cout << "on\n";
+	m_Scale += scale;
 }
 
-void ImageEditor::Move()
+void ImageEditor::Move(const Vector2f& offset)
 {
+	m_Offset += offset;
 }
 
 void ImageEditor::Reset()
 {
-	m_Transformation = Matrix2x3{};
+	m_Offset = Vector2f{};
+	m_Scale = 1.f;
 }
 
 void ImageEditor::AddPath(const std::string path)

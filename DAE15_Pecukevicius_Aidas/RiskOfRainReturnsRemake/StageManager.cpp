@@ -5,17 +5,15 @@
 
 StageManager::StageManager(const Rectf& viewport)
 	: m_Viewport{ viewport }
-{
-}
-
-StageManager::~StageManager()
+	, m_SpriteManager{}
+	, m_FrameManager{}
+	, m_LevelManager{}
+	, m_Camera{ m_LevelManager.GetLevelSize(), Vector2f{m_Viewport.width, m_Viewport.height}, 3.f }
 {
 }
 
 void StageManager::Initialize()
 {
-	m_SpriteManager.LoadSprites();
-	m_FrameManager.Initialize();
 	m_Player.Initialize(m_SpriteManager.GetPlayerSprites());
 	m_Player.SetFrameData(m_FrameManager.GetPlayerData());
 	//m_FrameManager.Initialize();
@@ -23,7 +21,7 @@ void StageManager::Initialize()
 
 void StageManager::Draw() const
 {
-	m_Camera.Center();
+	m_Camera.Center(m_Player.GetPlayerCenter());
 	m_Player.Draw();
 	m_Camera.Reset();
 }

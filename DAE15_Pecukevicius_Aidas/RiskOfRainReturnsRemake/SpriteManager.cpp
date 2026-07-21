@@ -2,6 +2,11 @@
 #include "SpriteManager.h"
 #include <iostream>
 
+SpriteManager::SpriteManager()
+{
+	LoadSprites();
+}
+
 SpriteManager::~SpriteManager()
 {
 	delete m_PlayerSprites;

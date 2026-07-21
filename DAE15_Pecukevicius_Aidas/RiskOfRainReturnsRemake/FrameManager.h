@@ -4,15 +4,16 @@
 class FrameManager
 {
 public:
+	explicit FrameManager();
+	~FrameManager() = default;
 	friend std::ostream& operator<<(std::ostream& out, const Rectf& frameInfo);
 
-	void Initialize();
 
 	std::map<CommandoState, std::vector<Rectf>>* GetPlayerData();
 
 private:
 	std::map<CommandoState, std::vector<Rectf>> m_PlayerData;
-
+	void Initialize();
 };
 
 //void from_json(const nlohmann::json& j, FrameManager::FrameInfo& frameInfo);

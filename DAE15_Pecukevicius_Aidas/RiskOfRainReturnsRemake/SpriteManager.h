@@ -7,13 +7,13 @@
 class SpriteManager
 {
 public:
+	explicit SpriteManager();
 	~SpriteManager();
 
-	void LoadSprites();
 	Texture* GetPlayerSprites();
 
 private:
 	Texture* m_PlayerSprites{};
 	Texture* m_LevelSprites{};
+	void LoadSprites();
 };
-

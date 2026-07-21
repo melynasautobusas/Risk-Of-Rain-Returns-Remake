@@ -75,6 +75,11 @@ void FrameManager::WriteDataToPath(const std::string& fileName) const
 }
 */
 
+FrameManager::FrameManager()
+{
+	Initialize();
+}
+
 void FrameManager::Initialize()
 {
 	{

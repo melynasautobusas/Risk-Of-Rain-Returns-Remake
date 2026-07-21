@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Game.h"
+#include <iostream>
 
 Game::Game(const Window& window)
 	:BaseGame{ window }
@@ -29,14 +30,49 @@ void Game::Update(float elapsedSec)
 void Game::Draw() const
 {
 	ClearBackground();
-
+	//m_ImageEditor.Draw();
 	m_StageManager.Draw();
-	//TEST
 }
 
 void Game::ProcessKeyDownEvent(const SDL_KeyboardEvent& e)
 {
-	//std::cout << "KEYDOWN event: " << e.keysym.sym << std::endl;
+	//float scale{ 0.f };
+	//Vector2f offset{};
+	//switch (e.keysym.sym)
+	//{
+	//case SDLK_z:
+	//{
+	//	scale += 0.2f;
+	//	break;
+	//}
+	//case SDLK_x:
+	//{
+	//	scale -= 0.2f;
+	//	break;
+	//}
+	//case SDLK_LEFT:
+	//{
+	//	offset.x -= 1.f;
+	//	break;
+	//}
+	//case SDLK_RIGHT:
+	//{
+	//	offset.x += 1.f;
+	//	break;
+	//}
+	//case SDLK_UP:
+	//{
+	//	offset.y -= 1.f;
+	//	break;
+	//}
+	//case SDLK_DOWN:
+	//{
+	//	offset.y += 1.f;
+	//	break;
+	//}
+	//}
+	//m_ImageEditor.Zoom(scale);
+	//m_ImageEditor.Move(offset);
 }
 
 void Game::ProcessKeyUpEvent(const SDL_KeyboardEvent& e)
