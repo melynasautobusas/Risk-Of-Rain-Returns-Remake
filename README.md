@@ -125,6 +125,10 @@ If you encounter problems with launching:
 <!-- HOW TO PLAY -->
 ## How to play
 
+The current version is unplayable.
+
+However, later:
+
 The goal of the game is to defeat the teleporter Boss and move onto the next stage. 
 Kill Monsters and open Chests to increase your odds of survival!
 
@@ -148,24 +152,10 @@ P.S. - There is fall damage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CLASS STRUCTURE -->
-## Class structure 
-
-To be added
-
-### Object composition 
-
-### Inheritance 
-
-### ..
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- CHECKLIST -->
 ## Checklist
+
+Did not take this into regard.
 
 - [x] Accept / set up github project
 - [ ] week 01 topics applied
@@ -197,10 +187,7 @@ Project Link: [https://github.com/HowestDAE/DAE15_GAME_PROJECT](https://github.c
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-To be added later
-
-* [Example 1: cpp reference on std::vector](https://en.cppreference.com/w/cpp/container/vector)
-* ..
+Nothing here, but us chickens.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
