@@ -1,7 +1,6 @@
 #pragma once
-#include "BaseEnemy.h"
-class Enemy : public BaseEnemy
+class Enemy
 {
-	explicit Enemy(BaseEnemy::Type enemyType);
+	explicit Enemy();
 };
 

@@ -11,7 +11,7 @@ int SDL_main(int argv, char** args)
 
 	StartHeapControl();
 
-	Game* pGame{ new Game{ Window{ "Risk of Rain Returns // add name before exam!", 1200.f , 600.f } } };
+	Game* pGame{ new Game{ Window{ "Risk of Rain Returns / Aidas_Pecukevicius", 1200.f , 600.f } } };
 	pGame->Run();
 	delete pGame;
 

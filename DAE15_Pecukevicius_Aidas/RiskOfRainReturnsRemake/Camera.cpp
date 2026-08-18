@@ -8,11 +8,10 @@ Camera::Camera(const Vector2f& levelSize, const Vector2f& screenSize, float scal
 {
 }
 
-void Camera::Center(const Vector2f& playerCenter) const
+void Camera::Center(const Vector2f& bottomCenter) const
 {
 	glPushMatrix();
-	glTranslatef(playerCenter.x + m_ScreenSize.x * 0.5f, playerCenter.y + m_ScreenSize.y * 0.5f, 0.f);
-	glScalef(m_Scale, m_Scale, 1.f);
+	glTranslatef(m_ScreenSize.x * 0.5f, m_ScreenSize.y * 0.5f, 0.f);
 }
 
 void Camera::Reset() const

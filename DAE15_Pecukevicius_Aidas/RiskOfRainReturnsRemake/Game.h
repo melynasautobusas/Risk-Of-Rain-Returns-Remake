@@ -1,9 +1,6 @@
 #pragma once
 #include "BaseGame.h"
-#include <vector>
 #include "StageManager.h"
-#include "ImageEditor.h"
-
 class Game : public BaseGame
 {
 public:
@@ -33,5 +30,4 @@ private:
 	void ClearBackground() const;
 
 	StageManager m_StageManager{GetViewPort()};
-	ImageEditor m_ImageEditor{};
 };

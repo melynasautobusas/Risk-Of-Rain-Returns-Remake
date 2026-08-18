@@ -1,0 +1,1784 @@
+{
+    "back": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 20.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 100.0,
+                "height": 20.0,
+                "left": 119.0,
+                "width": 13.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 7.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 99.0,
+                "height": 21.0,
+                "left": 102.5,
+                "width": 12.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 15.0
+            },
+            "pivotPoint": {
+                "x": 7.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 99.0,
+                "height": 21.0,
+                "left": 86.5,
+                "width": 14.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 99.0,
+                "height": 21.0,
+                "left": 71.5,
+                "width": 12.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 20.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 100.0,
+                "height": 20.0,
+                "left": 55.0,
+                "width": 13.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 7.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 99.0,
+                "height": 21.0,
+                "left": 38.5,
+                "width": 12.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 14.0
+            },
+            "pivotPoint": {
+                "x": 7.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 99.0,
+                "height": 21.0,
+                "left": 22.5,
+                "width": 13.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 99.0,
+                "height": 21.0,
+                "left": 7.0,
+                "width": 13.0
+            }
+        }
+    ],
+    "backhalf": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 10.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 140.0,
+                "width": 10.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 6.0
+            },
+            "pivotPoint": {
+                "x": 3.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 141.0,
+                "height": 13.0,
+                "left": 123.0,
+                "width": 6.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 8.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 102.0,
+                "width": 8.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 11.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 143.0,
+                "height": 11.0,
+                "left": 82.5,
+                "width": 10.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 6.0
+            },
+            "pivotPoint": {
+                "x": 3.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 66.0,
+                "width": 6.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 7.0
+            },
+            "pivotPoint": {
+                "x": 4.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 141.0,
+                "height": 13.0,
+                "left": 46.0,
+                "width": 7.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 11.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 25.5,
+                "width": 10.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 143.0,
+                "height": 11.0,
+                "left": 6.5,
+                "width": 12.5
+            }
+        }
+    ],
+    "climbdown": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 23.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 9.5,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 240.0,
+                "height": 23.0,
+                "left": 116.0,
+                "width": 17.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 9.5,
+                "y": -4.0
+            },
+            "sourceRect": {
+                "bottom": 239.0,
+                "height": 21.0,
+                "left": 94.0,
+                "width": 16.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 25.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 7.5,
+                "y": -4.0
+            },
+            "sourceRect": {
+                "bottom": 235.0,
+                "height": 25.0,
+                "left": 74.0,
+                "width": 13.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 7.5,
+                "y": -3.0
+            },
+            "sourceRect": {
+                "bottom": 240.0,
+                "height": 21.0,
+                "left": 52.0,
+                "width": 17.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 24.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 6.5,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 239.0,
+                "height": 24.0,
+                "left": 31.0,
+                "width": 16.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 27.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 5.5,
+                "y": -2.0
+            },
+            "sourceRect": {
+                "bottom": 235.0,
+                "height": 27.0,
+                "left": 10.0,
+                "width": 13.0
+            }
+        }
+    ],
+    "climbup": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 27.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 5.5,
+                "y": -2.0
+            },
+            "sourceRect": {
+                "bottom": 235.0,
+                "height": 27.0,
+                "left": 10.0,
+                "width": 13.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 24.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 6.5,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 239.0,
+                "height": 24.0,
+                "left": 31.0,
+                "width": 16.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 7.5,
+                "y": -3.0
+            },
+            "sourceRect": {
+                "bottom": 240.0,
+                "height": 21.0,
+                "left": 52.0,
+                "width": 17.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 25.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 7.5,
+                "y": -4.0
+            },
+            "sourceRect": {
+                "bottom": 235.0,
+                "height": 25.0,
+                "left": 74.0,
+                "width": 13.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 9.5,
+                "y": -4.0
+            },
+            "sourceRect": {
+                "bottom": 239.0,
+                "height": 21.0,
+                "left": 94.0,
+                "width": 16.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 23.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 9.5,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 240.0,
+                "height": 23.0,
+                "left": 116.0,
+                "width": 17.0
+            }
+        }
+    ],
+    "death": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 13.0,
+                "y": 3.0
+            },
+            "sourceRect": {
+                "bottom": 275.0,
+                "height": 21.0,
+                "left": 25.0,
+                "width": 20.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 19.0,
+                "left": 0.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 14.0,
+                "y": 1.0
+            },
+            "sourceRect": {
+                "bottom": 275.0,
+                "height": 19.0,
+                "left": 66.0,
+                "width": 20.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 18.0,
+                "left": 0.0,
+                "width": 21.0
+            },
+            "pivotPoint": {
+                "x": 26.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 275.0,
+                "height": 18.0,
+                "left": 95.0,
+                "width": 21.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 27.0
+            },
+            "pivotPoint": {
+                "x": 30.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 280.0,
+                "height": 13.0,
+                "left": 132.0,
+                "width": 27.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 29.0
+            },
+            "pivotPoint": {
+                "x": 32.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 282.0,
+                "height": 11.0,
+                "left": 172.0,
+                "width": 29.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 28.0
+            },
+            "pivotPoint": {
+                "x": 31.0,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 283.0,
+                "height": 11.0,
+                "left": 214.0,
+                "width": 28.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 10.0,
+                "left": 0.0,
+                "width": 31.0
+            },
+            "pivotPoint": {
+                "x": 34.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 283.0,
+                "height": 10.0,
+                "left": 252.0,
+                "width": 31.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 6.0,
+                "left": 0.0,
+                "width": 32.0
+            },
+            "pivotPoint": {
+                "x": 35.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 287.0,
+                "height": 6.0,
+                "left": 293.0,
+                "width": 32.0
+            }
+        }
+    ],
+    "dive": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 20.0,
+                "left": 0.0,
+                "width": 25.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": -2.0
+            },
+            "sourceRect": {
+                "bottom": 680.0,
+                "height": 20.0,
+                "left": 14.0,
+                "width": 25.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 8.0,
+                "left": 0.0,
+                "width": 29.0
+            },
+            "pivotPoint": {
+                "x": 14.0,
+                "y": -11.0
+            },
+            "sourceRect": {
+                "bottom": 683.0,
+                "height": 8.0,
+                "left": 47.0,
+                "width": 29.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 32.0
+            },
+            "pivotPoint": {
+                "x": 13.0,
+                "y": -9.0
+            },
+            "sourceRect": {
+                "bottom": 680.0,
+                "height": 13.0,
+                "left": 86.0,
+                "width": 32.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 17.0,
+                "left": 0.0,
+                "width": 27.0
+            },
+            "pivotPoint": {
+                "x": 12.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 685.0,
+                "height": 17.0,
+                "left": 125.0,
+                "width": 27.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 3.0,
+                "width": 18.0
+            },
+            "pivotPoint": {
+                "x": 12.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 689.0,
+                "height": 13.0,
+                "left": 163.0,
+                "width": 21.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 18.0,
+                "left": 8.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 16.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 684.0,
+                "height": 18.0,
+                "left": 197.0,
+                "width": 25.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 11.0,
+                "width": 23.0
+            },
+            "pivotPoint": {
+                "x": 18.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 688.0,
+                "height": 14.0,
+                "left": 233.0,
+                "width": 34.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 19.0,
+                "left": 0.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 10.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 683.0,
+                "height": 19.0,
+                "left": 279.0,
+                "width": 20.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 4.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 680.0,
+                "height": 22.0,
+                "left": 323.0,
+                "width": 16.0
+            }
+        }
+    ],
+    "doubletapa": [
+        {
+            "hitbox": {
+                "bottom": 3.0,
+                "height": 15.0,
+                "left": 0.0,
+                "width": 23.0
+            },
+            "pivotPoint": {
+                "x": 10.0,
+                "y": 5.0
+            },
+            "sourceRect": {
+                "bottom": 366.0,
+                "height": 22.0,
+                "left": 11.0,
+                "width": 38.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 2.0,
+                "height": 18.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 11.0,
+                "y": 4.0
+            },
+            "sourceRect": {
+                "bottom": 367.0,
+                "height": 20.0,
+                "left": 62.0,
+                "width": 46.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 15.0,
+                "left": 0.0,
+                "width": 22.0
+            },
+            "pivotPoint": {
+                "x": 10.0,
+                "y": 2.0
+            },
+            "sourceRect": {
+                "bottom": 370.0,
+                "height": 15.0,
+                "left": 115.0,
+                "width": 40.0
+            }
+        }
+    ],
+    "doubletapb": [
+        {
+            "hitbox": {
+                "bottom": 6.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 22.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 7.0
+            },
+            "sourceRect": {
+                "bottom": 406.0,
+                "height": 22.0,
+                "left": 12.0,
+                "width": 37.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 5.0,
+                "height": 14.0,
+                "left": 0.0,
+                "width": 18.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 6.0
+            },
+            "sourceRect": {
+                "bottom": 408.0,
+                "height": 19.0,
+                "left": 64.0,
+                "width": 44.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 1.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 2.0
+            },
+            "sourceRect": {
+                "bottom": 409.0,
+                "height": 14.0,
+                "left": 117.0,
+                "width": 38.0
+            }
+        }
+    ],
+    "fall": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 24.0,
+                "left": 0.0,
+                "width": 19.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 165.0,
+                "height": 24.0,
+                "left": 75.0,
+                "width": 19.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 9.0
+            },
+            "pivotPoint": {
+                "x": 4.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 211.0,
+                "height": 13.0,
+                "left": 80.0,
+                "width": 9.0
+            }
+        }
+    ],
+    "fmt": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 23.0,
+                "left": 0.0,
+                "width": 15.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 461.0,
+                "height": 34.0,
+                "left": 5.0,
+                "width": 75.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 461.0,
+                "height": 34.0,
+                "left": 81.0,
+                "width": 75.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 461.0,
+                "height": 34.0,
+                "left": 157.0,
+                "width": 75.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 19.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 461.0,
+                "height": 34.0,
+                "left": 233.0,
+                "width": 43.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 19.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 461.0,
+                "height": 34.0,
+                "left": 311.0,
+                "width": 20.0
+            }
+        }
+    ],
+    "idle": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 25.0,
+                "height": 22.0,
+                "left": 6.5,
+                "width": 16.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 11.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 36.0,
+                "height": 11.0,
+                "left": 48.5,
+                "width": 10.5
+            }
+        }
+    ],
+    "jump": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 23.0,
+                "left": 0.0,
+                "width": 14.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 165.0,
+                "height": 23.0,
+                "left": 11.0,
+                "width": 17.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 7.0
+            },
+            "pivotPoint": {
+                "x": 3.0,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 211.0,
+                "height": 12.0,
+                "left": 13.0,
+                "width": 7.0
+            }
+        }
+    ],
+    "peak": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 23.0,
+                "left": 0.0,
+                "width": 19.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 165.0,
+                "height": 23.0,
+                "left": 42.0,
+                "width": 21.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 11.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": -1.0
+            },
+            "sourceRect": {
+                "bottom": 211.0,
+                "height": 12.0,
+                "left": 46.0,
+                "width": 11.0
+            }
+        }
+    ],
+    "sfdouble": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 19.0,
+                "left": 2.0,
+                "width": 27.0
+            },
+            "pivotPoint": {
+                "x": 14.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 786.0,
+                "height": 19.0,
+                "left": 30.0,
+                "width": 31.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 3.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 14.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 778.0,
+                "height": 27.0,
+                "left": 112.0,
+                "width": 56.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 2.0,
+                "width": 26.0
+            },
+            "pivotPoint": {
+                "x": 14.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 781.0,
+                "height": 24.0,
+                "left": 194.0,
+                "width": 52.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 33.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 39.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 778.0,
+                "height": 27.0,
+                "left": 251.0,
+                "width": 56.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 23.0,
+                "width": 26.0
+            },
+            "pivotPoint": {
+                "x": 34.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 781.0,
+                "height": 24.0,
+                "left": 338.0,
+                "width": 51.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 20.0,
+                "left": 3.0,
+                "width": 23.0
+            },
+            "pivotPoint": {
+                "x": 14.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 785.0,
+                "height": 20.0,
+                "left": 440.0,
+                "width": 29.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 1.0,
+                "width": 15.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 783.0,
+                "height": 22.0,
+                "left": 527.0,
+                "width": 18.0
+            }
+        }
+    ],
+    "sfsingle": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 19.0,
+                "left": 0.0,
+                "width": 25.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 747.0,
+                "height": 19.0,
+                "left": 5.0,
+                "width": 25.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 19.0,
+                "left": 0.0,
+                "width": 25.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 747.0,
+                "height": 19.0,
+                "left": 5.0,
+                "width": 25.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 739.0,
+                "height": 27.0,
+                "left": 56.0,
+                "width": 48.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 20.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 742.0,
+                "height": 24.0,
+                "left": 106.0,
+                "width": 44.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 22.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 744.0,
+                "height": 22.0,
+                "left": 155.0,
+                "width": 49.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 744.0,
+                "height": 22.0,
+                "left": 206.0,
+                "width": 17.0
+            }
+        }
+    ],
+    "tracer": [
+        {
+            "hitbox": {
+                "bottom": 5.0,
+                "height": 2.0,
+                "left": 0.0,
+                "width": 62.0
+            },
+            "pivotPoint": {
+                "x": 0.0,
+                "y": -7.0
+            },
+            "sourceRect": {
+                "bottom": 506.0,
+                "height": 13.0,
+                "left": 5.0,
+                "width": 62.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 5.0,
+                "height": 2.0,
+                "left": 0.0,
+                "width": 62.0
+            },
+            "pivotPoint": {
+                "x": 0.0,
+                "y": -7.0
+            },
+            "sourceRect": {
+                "bottom": 506.0,
+                "height": 13.0,
+                "left": 68.0,
+                "width": 62.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 5.0,
+                "height": 2.0,
+                "left": 0.0,
+                "width": 62.0
+            },
+            "pivotPoint": {
+                "x": 0.0,
+                "y": -7.0
+            },
+            "sourceRect": {
+                "bottom": 506.0,
+                "height": 13.0,
+                "left": 131.0,
+                "width": 62.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 5.0,
+                "height": 2.0,
+                "left": 0.0,
+                "width": 62.0
+            },
+            "pivotPoint": {
+                "x": 0.0,
+                "y": -7.0
+            },
+            "sourceRect": {
+                "bottom": 506.0,
+                "height": 13.0,
+                "left": 194.0,
+                "width": 62.0
+            }
+        }
+    ],
+    "walk": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 20.0,
+                "left": 0.0,
+                "width": 18.0
+            },
+            "pivotPoint": {
+                "x": 11.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 68.0,
+                "height": 20.0,
+                "left": 12.0,
+                "width": 18.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 18.0
+            },
+            "pivotPoint": {
+                "x": 10.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 67.0,
+                "height": 21.0,
+                "left": 47.0,
+                "width": 18.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 15.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 66.0,
+                "height": 22.0,
+                "left": 83.0,
+                "width": 15.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 14.0
+            },
+            "pivotPoint": {
+                "x": 7.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 67.0,
+                "height": 21.0,
+                "left": 118.0,
+                "width": 14.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 20.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 68.0,
+                "height": 20.0,
+                "left": 151.0,
+                "width": 17.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 17.0
+            },
+            "pivotPoint": {
+                "x": 8.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 67.0,
+                "height": 21.0,
+                "left": 185.0,
+                "width": 17.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 22.0,
+                "left": 0.0,
+                "width": 15.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 66.0,
+                "height": 22.0,
+                "left": 221.0,
+                "width": 15.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 21.0,
+                "left": 0.0,
+                "width": 16.0
+            },
+            "pivotPoint": {
+                "x": 9.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 67.0,
+                "height": 21.0,
+                "left": 252.0,
+                "width": 16.0
+            }
+        }
+    ],
+    "walkhalf": [
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 13.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 143.0,
+                "height": 11.0,
+                "left": 6.5,
+                "width": 12.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 11.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 25.5,
+                "width": 10.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 7.0
+            },
+            "pivotPoint": {
+                "x": 4.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 141.0,
+                "height": 13.0,
+                "left": 46.0,
+                "width": 7.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 6.0
+            },
+            "pivotPoint": {
+                "x": 3.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 66.0,
+                "width": 6.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 11.0,
+                "left": 0.0,
+                "width": 11.0
+            },
+            "pivotPoint": {
+                "x": 6.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 143.0,
+                "height": 11.0,
+                "left": 82.5,
+                "width": 10.5
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 8.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 102.0,
+                "width": 8.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 13.0,
+                "left": 0.0,
+                "width": 6.0
+            },
+            "pivotPoint": {
+                "x": 3.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 141.0,
+                "height": 13.0,
+                "left": 123.0,
+                "width": 6.0
+            }
+        },
+        {
+            "hitbox": {
+                "bottom": 0.0,
+                "height": 12.0,
+                "left": 0.0,
+                "width": 10.0
+            },
+            "pivotPoint": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "sourceRect": {
+                "bottom": 142.0,
+                "height": 12.0,
+                "left": 140.0,
+                "width": 10.0
+            }
+        }
+    ]
+}

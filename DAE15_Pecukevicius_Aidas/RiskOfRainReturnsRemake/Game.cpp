@@ -24,117 +24,47 @@ void Game::Cleanup()
 
 void Game::Update(float elapsedSec)
 {
-	m_StageManager.Update(elapsedSec);
+	static float elapsedTime{ 0.f };
+
+	elapsedTime += elapsedSec;
+
+	while (elapsedTime >= 1.f / frameCap) // while to account for lag
+	{
+		m_StageManager.Update();
+		elapsedTime -= 1.f / frameCap;
+	}
 }
 
 void Game::Draw() const
 {
 	ClearBackground();
-	//m_ImageEditor.Draw();
 	m_StageManager.Draw();
 }
 
 void Game::ProcessKeyDownEvent(const SDL_KeyboardEvent& e)
 {
-	//float scale{ 0.f };
-	//Vector2f offset{};
-	//switch (e.keysym.sym)
-	//{
-	//case SDLK_z:
-	//{
-	//	scale += 0.2f;
-	//	break;
-	//}
-	//case SDLK_x:
-	//{
-	//	scale -= 0.2f;
-	//	break;
-	//}
-	//case SDLK_LEFT:
-	//{
-	//	offset.x -= 1.f;
-	//	break;
-	//}
-	//case SDLK_RIGHT:
-	//{
-	//	offset.x += 1.f;
-	//	break;
-	//}
-	//case SDLK_UP:
-	//{
-	//	offset.y -= 1.f;
-	//	break;
-	//}
-	//case SDLK_DOWN:
-	//{
-	//	offset.y += 1.f;
-	//	break;
-	//}
-	//}
-	//m_ImageEditor.Zoom(scale);
-	//m_ImageEditor.Move(offset);
+	m_StageManager.KeyInput(e);
 }
 
 void Game::ProcessKeyUpEvent(const SDL_KeyboardEvent& e)
 {
-	//std::cout << "KEYUP event: " << e.keysym.sym << std::endl;
-	//switch ( e.keysym.sym )
-	//{
-	//case SDLK_LEFT:
-	//	//std::cout << "Left arrow key released\n";
-	//	break;
-	//case SDLK_RIGHT:
-	//	//std::cout << "`Right arrow key released\n";
-	//	break;
-	//case SDLK_1:
-	//case SDLK_KP_1:
-	//	//std::cout << "Key 1 released\n";
-	//	break;
-	//}
 }
 
 void Game::ProcessMouseMotionEvent(const SDL_MouseMotionEvent& e)
 {
-	//std::cout << "MOUSEMOTION event: " << e.x << ", " << e.y << std::endl;
 }
 
 void Game::ProcessMouseDownEvent(const SDL_MouseButtonEvent& e)
 {
-	//std::cout << "MOUSEBUTTONDOWN event: ";
-	//switch ( e.button )
-	//{
-	//case SDL_BUTTON_LEFT:
-	//	std::cout << " left button " << std::endl;
-	//	break;
-	//case SDL_BUTTON_RIGHT:
-	//	std::cout << " right button " << std::endl;
-	//	break;
-	//case SDL_BUTTON_MIDDLE:
-	//	std::cout << " middle button " << std::endl;
-	//	break;
-	//}
-
+	m_StageManager.MouseInput(e);
 }
 
 void Game::ProcessMouseUpEvent(const SDL_MouseButtonEvent& e)
 {
-	//std::cout << "MOUSEBUTTONUP event: ";
-	//switch ( e.button )
-	//{
-	//case SDL_BUTTON_LEFT:
-	//	std::cout << " left button " << std::endl;
-	//	break;
-	//case SDL_BUTTON_RIGHT:
-	//	std::cout << " right button " << std::endl;
-	//	break;
-	//case SDL_BUTTON_MIDDLE:
-	//	std::cout << " middle button " << std::endl;
-	//	break;
-	//}
 }
 
 void Game::ClearBackground() const
 {
-	glClearColor(0.0f, 0.0f, 0.3f, 1.0f);
+	glClearColor(0.0f, 0.80f, 0.80f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 }
