@@ -1,0 +1,13 @@
+{
+    "objectData": [
+        {
+            "hitbox": {
+                "bottom": 40.0,
+                "height": 3.0,
+                "left": 0.0,
+                "width": 100.0
+            },
+            "interactable": false
+        }
+    ]
+}

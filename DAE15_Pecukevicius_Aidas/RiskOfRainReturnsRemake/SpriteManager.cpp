@@ -2,25 +2,34 @@
 #include "SpriteManager.h"
 #include <iostream>
 
+SpriteManager::SpriteManager()
+{
+	LoadSprites();
+}
+
 SpriteManager::~SpriteManager()
 {
-	delete m_PlayerSprites;
-	m_PlayerSprites = nullptr;
+	delete m_PlayerSpriteSheet;
+	m_PlayerSpriteSheet = nullptr;
+	//delete m_GolemSpriteSheet;
+	//m_GolemSpriteSheet = nullptr;
+	//delete m_LemurianSpriteSheet;
+	//m_LemurianSpriteSheet = nullptr;
+	//delete m_ColossusSpriteSheet;
+	//m_ColossusSpriteSheet = nullptr;
+	//delete m_LevelSpriteSheet;
+	//m_LevelSpriteSheet = nullptr;
 }
 
 void SpriteManager::LoadSprites()
 {
-	if (!Texture{ "CommandoSpriteSheetA0.png" }.IsCreationOk())
-	{
-		std::cout << "Player sprite not found!\n";
-	}
-	else
-	{
-		m_PlayerSprites = new Texture{ "CommandoSpriteSheetA0.png" };
-	}
+	m_PlayerSpriteSheet = new Texture{ "CommandoSpriteSheet.png" };
+	//m_GolemSpriteSheet = new Texture{ "GolemSpriteSheet.png" };
+	//m_LemurianSpriteSheet = new Texture{ "LemurianSpriteSheet.png" };
+	//m_ColossusSpriteSheet = new Texture{ "ColossusSpriteSheet.png" };
 }
 
 Texture* SpriteManager::GetPlayerSprites()
 {
-	return m_PlayerSprites;
+	return m_PlayerSpriteSheet;
 }

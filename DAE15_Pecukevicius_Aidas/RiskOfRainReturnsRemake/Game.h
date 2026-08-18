@@ -1,6 +1,5 @@
 #pragma once
 #include "BaseGame.h"
-#include <vector>
 #include "StageManager.h"
 class Game : public BaseGame
 {

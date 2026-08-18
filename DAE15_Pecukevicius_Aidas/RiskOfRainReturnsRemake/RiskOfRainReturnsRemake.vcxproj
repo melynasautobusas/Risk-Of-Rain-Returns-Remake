@@ -160,13 +160,14 @@ xcopy "$(ProjectDir)Resources\*.*" "$(TargetDir)" /y /d /s</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseEnemy.cpp" />
     <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Colossus.cpp" />
     <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="FrameManager.cpp" />
+    <ClCompile Include="DataManager.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="ImageEditor.cpp" />
+    <ClCompile Include="Golem.cpp" />
+    <ClCompile Include="Lemurian.cpp" />
     <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp" />
@@ -176,13 +177,14 @@ xcopy "$(ProjectDir)Resources\*.*" "$(TargetDir)" /y /d /s</Command>
     <ClCompile Include="StageManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseEnemy.h" />
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Colossus.h" />
     <ClInclude Include="Enemy.h" />
-    <ClInclude Include="FrameManager.h" />
+    <ClInclude Include="DataManager.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="ImageEditor.h" />
+    <ClInclude Include="Golem.h" />
+    <ClInclude Include="Lemurian.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="nlohmann\json.hpp" />
     <ClInclude Include="pch.h" />
@@ -207,10 +209,17 @@ xcopy "$(ProjectDir)Resources\*.*" "$(TargetDir)" /y /d /s</Command>
   <!-- Include the custom .targets file -->
   <ItemGroup>
     <None Include="Prog2Game.targets" />
+    <None Include="Resources\ColossusFrameData.json" />
+    <None Include="Resources\CommandoFrameData.json" />
+    <None Include="Resources\GolemFrameData.json" />
+    <None Include="Resources\LemurianFrameData.json" />
+    <None Include="Resources\MapData.json" />
+    <None Include="Resources\ResourceData.json" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Resources\CommandoSprites.png" />
     <Image Include="Resources\CommandoSpriteSheet.png" />
-    <Image Include="Resources\CommandoSpriteSheetA0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Miracode.ttf" />
   </ItemGroup>
 </Project>

@@ -1,19 +1,22 @@
 #pragma once
 #include "Texture.h"
-#include "FrameManager.h"
 #include <vector>
 #include <map>
 
 class SpriteManager
 {
 public:
+	explicit SpriteManager();
 	~SpriteManager();
 
-	void LoadSprites();
 	Texture* GetPlayerSprites();
 
 private:
-	Texture* m_PlayerSprites{};
-	Texture* m_LevelSprites{};
-};
+	Texture* m_PlayerSpriteSheet{};
+	Texture* m_GolemSpriteSheet{};
+	Texture* m_LemurianSpriteSheet{};
+	Texture* m_ColossusSpriteSheet{};
+	Texture* m_LevelSpriteSheet{};
 
+	void LoadSprites();
+};

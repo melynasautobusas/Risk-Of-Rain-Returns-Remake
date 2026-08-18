@@ -1,27 +1,32 @@
 #pragma once
 #include "Player.h"
 #include "SpriteManager.h"
-#include "FrameManager.h"
-#include "nlohmann/json.hpp"
-#include "Camera.h"
 #include "LevelManager.h"
+#include "Camera.h"
+#include "DataManager.h"
+#include "Collider.h"
 
 class StageManager
 {
 public:
-	explicit StageManager(const Rectf& viewport);
-	~StageManager();
+	explicit StageManager(const Rectf& viewport); 
+	~StageManager() = default;
 
 	void Initialize();
 	void Draw() const;
-	void Update(float elapsedSec);
+	void Update();
+	void KeyInput(const SDL_KeyboardEvent& e);
+	void MouseInput(const SDL_MouseButtonEvent& e);
 
 private:
-	Rectf m_Viewport{};
-	const std::string m_ResourceDirectory{ "../../RiskOfRainReturnsRemake/Resources/" };
-	SpriteManager m_SpriteManager{};
-	FrameManager m_FrameManager{};
-	LevelManager m_LevelManager{};
-	Player m_Player{};
-	Camera m_Camera{ m_LevelManager.GetLevelSize(), Vector2f{m_Viewport.width, m_Viewport.height}};
+	const Rectf m_Viewport;
+	bool m_ManageSprites{ false };
+	float m_Scale{ 5.f };
+
+	SpriteManager m_SpriteManager;
+	LevelManager m_LevelManager;
+	Player m_Player;
+	Camera m_Camera;
+	DataManager m_DataManager{ m_Viewport };
+	Collider m_Collider{};
 };
